@@ -13,33 +13,38 @@ h1 {
   font-size:4em;
   font-family:impact;
   text-shadow: 40px 20px rgba(255,255,255,0.4), -10px 40px rgba(65,105,225,0.4), 20px -40px rgba(255,255,255,0.4), -40px -10px rgba(65,105,225,0.4), -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
-  padding:1em 0;
+  padding:1.5em 0;
   text-align:center;
 }
 h2 {
-  font-family:impact;
-  font-size:48px;
   color:white;
-  text-shadow: 0 0 3em #00008b, 0 0 3em #00008b, -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+  font-size:4em;
+  font-family:impact;
+  text-shadow: 40px 20px rgba(255,255,255,0.4), -10px 40px rgba(65,105,225,0.4), 20px -40px rgba(255,255,255,0.4), -40px -10px rgba(65,105,225,0.4), -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+  padding:0;
+  text-align:center;
 }
 img {
- border-radius: 50%; 
- width:200px;
- border: 15px double white;
+ width:400px;
 }
+
+p {
+  text-align:left;
+  font-size:15px;
+  font-family:arial;
+  color:white;
+}
+
 a {
   color:white;
   
 }
 li {
   display: inline;
-  margin: 0 5px;
   color:white;
   font-size:32px;
-  font-family:Agency FB;
   text-shadow: 1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   padding:1em;
-  margin:1em;
   text-align:center;
   font-family:impact;
   text-decoration:none;
@@ -53,16 +58,16 @@ ul {
 }
 
 table {  
-  padding:1.5em 1em;
+  padding:0 1em;
   
 }
 
 iframe {
-  padding:2.5em 0;
+  padding:0.5em 0;
 }
 
 td, tr {
-  background-color:darkblue;
+  background-color:rgba(0,0,255,0.2);
   padding:1em;
   border: 1px solid black;
   color:white;
@@ -72,7 +77,7 @@ td, tr {
   font-weight:700;
 }
 th {
-  background-color:darkblue;
+  background-color:rgba(0,0,255,0.2);
   padding:1em;
   border: 1px solid black;
   color:white;
@@ -91,25 +96,46 @@ th {
       
     }
     
-  .inputUL {
-    padding:;
+  footer {
+    text-align:center;
   }
+  
+  button {
+      padding:1.5%;
+      background-color:darkblue;
+      font-weight:700;
+      color:white;
+      font-size:16px;
+      border:1px solid black;
+      margin:5% 1% 1% 1%;
+      border-radius:10%;
+      }
+
     
   .inputTitle {
     list-style-type: none;
-    padding:1em 0;
+    padding:1px 0 0 0 ;
     font-weight:700;
-    font-size:18px;
+    font-size:24px;
     font-family:impact;
+    display:block;
+  }
+  
+  .inputUL {
+    display: block;
+    padding:2em;
+    margin:0;
+    border:0;
   }
   .cross {
     text-decoration: line-through;
+    font-size:19px;
   }
   
   .loud {
     font-weight:700;
     color:yellow;
-    font-size:19px;
+    font-size:21px;
   }
   .title {
     font-size:28px;
@@ -125,49 +151,21 @@ th {
     
   }
   
+  #submit {
+    font-size:20px;
+  }
+  
  @media (max-width: 500px)  {
-        body {
-        background:white;}
+    body {
+        background:white;
     }
-    @media (max-width: 500px)  {
-        h1 {
+
+    h1 {
           font-size: 36px;
       }
-        li {
+    li {
           display: block;
           padding: 5px;
       }
     }
-    button {
-      padding:2%;
-      background-color:yellow;
-      font-weight:700;
-      color:blue;
-      border:1px solid black;
-      margin:1%;
-      border-radius:50%;
-      }
-    .like {
-      background-color:rgba(0, 0, 255, 0.7);
-      padding:2%;
-      color:white;
-      font-weight:700;
-      border:1px solid yellow;
-      text-shadow:black 1px 0,black 0 1px ,black -1px 0,black 0 -1px;
-      
-    }
-    .varlikes {
-      color:yellow;
-    }
-    .likecount {
-      background-color:rgba(0,0,255,0.4);
-      font-weight:700;
-      color:white;
-      text-shadow:black 1px 0,black 0 1px ,black -1px 0,black 0 -1px;
-      font-size:20px;
-      
-      }
-    .liked {
-      font-size:30px;
-      vertical-align:middle;
-    }
+    
