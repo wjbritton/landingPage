@@ -110,6 +110,9 @@ th {
       margin:5% 1% 1% 1%;
       border-radius:10%;
       }
+  iframe {
+    border-style: none;
+  }
 
     
   .inputTitle {
@@ -161,6 +164,7 @@ th {
     }
 
     h1 {
+      
           font-size: 36px;
       }
     li {
